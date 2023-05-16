@@ -1,15 +1,15 @@
-package com.softtek.modelo;
+package com.softtek.modelo.Ejercicio1;
 
 public class Ave extends Animal implements ObjetoVolador{
 
     @Override
     public String despegar() {
-        return "El ave despega" + getClass();
+        return "El ave despega " + getClass();
     }
 
     @Override
     public String aterrizar() {
-        return "El ave aterriza" + getClass();
+        return "El ave aterriza " + getClass();
     }
 
     @Override

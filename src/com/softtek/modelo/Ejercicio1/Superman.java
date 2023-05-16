@@ -1,14 +1,14 @@
-package com.softtek.modelo;
+package com.softtek.modelo.Ejercicio1;
 
 public class Superman extends Kriptoniano implements ObjetoVolador{
     @Override
     public String despegar() {
-        return "Superman despega" + getClass();
+        return "Superman despega " + getClass();
     }
 
     @Override
     public String aterrizar() {
-        return "Superman aterriza" + getClass();
+        return "Superman aterriza " + getClass();
     }
 
     @Override

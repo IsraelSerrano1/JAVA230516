@@ -1,4 +1,4 @@
-package com.softtek.modelo;
+package com.softtek.modelo.Ejercicio1;
 
 public interface ObjetoVolador {
     String despegar();

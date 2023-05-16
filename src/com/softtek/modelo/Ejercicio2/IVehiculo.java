@@ -1,2 +1,5 @@
-package com.softtek.modelo;public interface IVehiculo {
+package com.softtek.modelo.Ejercicio2;
+
+public interface IVehiculo {
+    String moverse();
 }
